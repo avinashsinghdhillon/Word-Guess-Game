@@ -5,27 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Word Guess Game</title>
+    <link rel="stylesheet" href="assets/css/resetcss.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div id="mastContainer">
-        <div class="row">
-            <h1>Press any key to start the game...</h1>
+        <header>
+            <h1>Word Guess Game</h1>
+        </header>
+
+
+
+        <div id="any-Key" class="row">
+            <h3>Press any key to start the game...</h3>
         </div>
-        <div class="row">
-            <!-- this will have the blank placeholders -->
-            <h1 id="quizWord-Text">quiz word</h1> 
+
+        <div id="gameBoard">
+
+            <div class="hvy">
+                <p>Guess the name of this western</p> 
+            </div>
+
+            <div class="row mainRow">
+                <!-- Displays correctly guessed letters -->
+                <div id="guessedLetters-Text"></div> 
+            </div>
+
+
+            <div class="row rowMd">
+                <h5>Incorrect Guesses</h5> 
+            </div>
+
+            <div class="row secondaryRow">
+                <!-- Displays the letters used -->
+                <div id="lettersUsed-Text">
+                    <div id="used0"class="lettersUsed"></div>
+                    <div id="used1" class="lettersUsed"></div>
+                    <div id="used2"class="lettersUsed"></div>
+                    <div id="used3"class="lettersUsed"></div>
+                    <div id="used4"class="lettersUsed"></div>
+                    <div id="used5"class="lettersUsed"></div>
+                    <div id="used6"class="lettersUsed"></div>
+                    <div id="used7"class="lettersUsed"></div>
+                    <div id="used8"class="lettersUsed"></div>
+                    <div id="used9"class="lettersUsed"></div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row rowHalf">
+            <div class="halfs">
+                <h3 id="guessesRem-Text">Guesses Remaining: </h3> 
+            </div>
+
+            <div class="halfs">
+                <h3 id="gamesWon-Text">Games Won: </h3> 
+            </div>
+
         </div>
 
         <div class="row">
-            <!-- this will have the guessedLeters -->
-            <h1 id="guessedLetters-Text">guessed letters</h1> 
+            <h3 id="msg-Text">Message: </h3> 
         </div>
 
-        <div class="row">
-            <!-- this will have the guessedLeters -->
-            <h1 id="Msg-Text">Message</h1> 
-        </div>
     </div>
     <script src="assets/javascript/game.js"></script>
 </body>
