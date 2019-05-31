@@ -1,13 +1,10 @@
 
 //Global variables
-// var dictionary = ["Unforgiven", "Tombstone", "Shane", "Stagecoach", "Winchester", "Hondo",
-//         "Laramie", "Hombre", "Appaloosa", "Barbarosa", "Montana", "Conagher", "Thunderheart",
-//         "Geronimo",  "Sodbusters", "Troublemakers", "Desparado", "Hiawatha", "Gunfighter",
-//         "Bandidas", "Shadowheart", "Redemption", "Windwalker", "Silverado", "Django",
-//         "Independence", "Chisum", "Catlow", "Tecumseh"];
-
-
-var dictionary = ["Laramie"];
+var dictionary = ["Unforgiven", "Tombstone", "Shane", "Stagecoach", "Winchester", "Hondo",
+        "Laramie", "Hombre", "Appaloosa", "Barbarosa", "Montana", "Conagher", "Thunderheart",
+        "Geronimo",  "Sodbusters", "Troublemakers", "Desparado", "Hiawatha", "Gunfighter",
+        "Bandidas", "Shadowheart", "Redemption", "Windwalker", "Silverado", "Django",
+        "Independence", "Chisum", "Catlow", "Tecumseh"];
 
 var lettersLeftToMatch = new Array();
 var gamesWon = 0;
